@@ -157,6 +157,7 @@ if __name__=="__main__":
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  
+torch.manual_seed(14)
 path = args.dataset_path # dataset folder
 savePath = args.save_path # save folder
 model_class =  M3 if args.exp_name=="M3" else M5 if args.exp_name=="M5" else M11 if args.exp_name=="M11" else M18 if args.exp_name== "M18" else M34_res if args.exp_name=="M34_res" else None
