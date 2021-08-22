@@ -11,9 +11,9 @@ URBANSOUND8K DATASET: [link](https://urbansounddataset.weebly.com/urbansound8k.h
 pip install -r src/requirements.txt
 ```
 ### Run the model
-```
-python src/main.py --epochs 5 --val-fold 5 --exp-name "M3" --savePath "" --dataPath "/content/UrbanSound8K/audio"\
-                                                    --metadataPath "/content/UrbanSound8K/metadata/UrbanSound8K.csv"
+exp_name: M3, M5, M11, M18, M34_res
+```                                                 
+python /src/main.py  --exp-name "M5" --epoch 5 --val-fold 10 --dataset-path '/content/UrbanSound8K/' --save-path "/content/drive/MyDrive/MODELS/"
 ```
 
 
