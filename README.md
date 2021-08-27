@@ -1,5 +1,5 @@
 # VERY DEEP CONVOLUTIONAL NEURAL NETWORKS FOR RAW WAVEFORMS
-Unofficial implementation of ["VERY DEEP CONVOLUTIONAL NEURAL NETWORKS FOR RAW WAVEFORMS"](https://arxiv.org/pdf/1610.00087.pdf) paper as part of African Master of Machine Intelligence master's bootcamp 2021.
+Unofficial implementation of ["VERY DEEP CONVOLUTIONAL NEURAL NETWORKS FOR RAW WAVEFORMS"](https://arxiv.org/pdf/1610.00087.pdf) paper as part of [African Master of Machine Intelligence master's](https://aimsammi.org/) bootcamp 2021.
 ### Download the dataset
 URBANSOUND8K DATASET: [link](https://urbansounddataset.weebly.com/urbansound8k.html)
 ```
