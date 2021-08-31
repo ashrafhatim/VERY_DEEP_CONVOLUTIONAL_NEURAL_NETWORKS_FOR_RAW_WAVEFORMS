@@ -15,5 +15,5 @@ pip install -r src/requirements.txt
 ```                                                 
 python /src/main.py  --exp-name "M5" --epoch 5 --val-fold 10 --dataset-path '/content/UrbanSound8K/' --save-path "/content/drive/MyDrive/MODELS/"
 ```
-
+![alt text](https://github.com/ashrafhatim/VERY_DEEP_CONVOLUTIONAL_NEURAL_NETWORKS_FOR_RAW_WAVEFORMS/blob/main/exp_25epochs.png)
 
